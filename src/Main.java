@@ -31,5 +31,7 @@ public class Main {
         dev.setNome("Courtney Laplante");
         dev.setConteudosInscrito(conteudos);
         dev.inscreverBootcamp(bootcampJava);
+        dev.progredir();
+        System.out.println("Xp: " + dev.calcularXPGanho());
     }
 }
